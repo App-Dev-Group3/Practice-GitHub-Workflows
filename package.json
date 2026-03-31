@@ -1,0 +1,11 @@
+{
+  "name": "practice-github-workflows",
+  "version": "1.0.0",
+  "description": "A sample Node.js project for practicing GitHub workflows",
+  "main": "src/greet.js",
+  "scripts": {
+    "test": "node --test 'tests/**/*.test.js'"
+  },
+  "keywords": ["git", "workflows", "practice"],
+  "license": "MIT"
+}
