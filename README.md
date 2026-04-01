@@ -1,28 +1,106 @@
-# Practice-GitHub-Workflows
-Do not upload env and node modules
+# Practice GitHub Workflows
 
-# BACKEND SETUP
+## ⚠️ Important Notes
+
+* Do **not** upload `.env` files
+* Do **not** upload `node_modules`
+
+---
+
+## 🖥️ Backend Setup
+
+1. Navigate to backend folder:
+
+```bash
 cd backend
+```
+
+2. Initialize project:
+
+```bash
 npm init -y
+```
+
+3. Install core dependencies:
+
+```bash
 npm install express
+```
 
-# Still on /backend add cors, cors are for browsers
-change 'main' to server.js from package.json
-add on "scripts:
-    "start": "node server.js",
-    "dev": "node server.js"
-    
+4. Install additional dependencies:
+
+```bash
 npm install express cors body-parser http-proxy-middleware
-now check with command node server.js
+```
 
-npm install -G nodemon
-command npm run dev
+5. Update `package.json`:
 
-# Install dotenv and create .env
+* Change:
+
+```json
+"main": "index.js"
+```
+
+to:
+
+```json
+"main": "server.js"
+```
+
+* Add scripts:
+
+```json
+"scripts": {
+  "start": "node server.js",
+  "dev": "node server.js"
+}
+```
+
+6. Run the server:
+
+```bash
+node server.js
+```
+
+---
+
+## 🔄 Development Tools
+
+1. Install Nodemon globally:
+
+```bash
+npm install -g nodemon
+```
+
+2. Run development mode:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+1. Install dotenv:
+
+```bash
+npm install dotenv
+```
+
+2. Create a `.env` file in `/backend`:
+
+```env
 PORT=3000
-on backend, npm install dotenv
+```
 
-# Create .gitignore and add:
+---
+
+## 📦 .gitignore Setup
+
+Create a `.gitignore` file and add:
+
+```
 node_modules/
 .env
 dist/
@@ -32,3 +110,38 @@ npm-debug.log
 coverage/
 .vscode/
 .idea/
+```
+
+---
+
+## 🌐 Frontend Setup
+
+1. Go to project root:
+
+```bash
+cd ..
+```
+
+2. Create React app: 
+
+```bash
+npx create-react-app frontend
+```
+
+3. Navigate to frontend:
+
+```bash
+cd frontend
+```
+
+4. Install routing:
+
+```bash
+npm install react-router-dom
+```
+
+5. Fix vulnerabilities (optional):
+
+npm audit fix --force
+```
+
