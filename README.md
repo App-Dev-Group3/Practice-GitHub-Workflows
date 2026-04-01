@@ -102,7 +102,7 @@ npm install dotenv
 
 ```env
 PORT=3000
-EMAIL_FROM=onboarding@resend.dev
+EMAIL_FROM= YOUR EMAIL
 RESEND_API_KEY= SIGN UP IN RESEND.COM GET AND PASTE API KEY HERE
 ```
 
@@ -128,32 +128,27 @@ coverage/
 
 ## 🌐 Frontend Setup
 
-1. Go to project root:
+1. Go to frontend folder:
 
 ```bash
-cd ..
+cd folder
 ```
 
 2. Create React app: 
 
 ```bash
-npx create-react-app frontend
+npm install
 ```
 
-3. Navigate to frontend:
-
-```bash
-cd frontend
-```
-
-4. Install routing:
+3. Install routing:
 
 ```bash
 npm install react-router-dom
 ```
 
-5. Fix vulnerabilities (optional):
+4. Fix vulnerabilities (optional):
 
+```bash
 npm audit fix --force
 ```
 ## Use your github account for resend.com
