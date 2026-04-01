@@ -75,7 +75,7 @@ node server.js
 
 ## 🔄 Development Tools
 
-1. Install Nodemon globally:
+1. Install Nodemon globally or root folder:
 
 ```bash
 npm install -g nodemon
@@ -91,7 +91,7 @@ npm run dev
 
 ## 🔐 Environment Variables
 
-1. Install dotenv:
+1. Install dotenv on /backend:
 
 ```bash
 npm install dotenv
