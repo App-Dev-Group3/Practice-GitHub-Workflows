@@ -1,6 +1,7 @@
 # Practice GitHub Workflows
 Always check before commit.
 Run both Frontend and backend folder with npm start
+API KEY is from resend.com, use your github account
 # Team Roles
 Backend: Gutierrez, Mercado, Manalo, Paule
 Frontend & Multimedia: Amores, Anastacio, Manalo
@@ -155,4 +156,4 @@ npm install react-router-dom
 
 npm audit fix --force
 ```
-## Use your github account for resend
+## Use your github account for resend.com
