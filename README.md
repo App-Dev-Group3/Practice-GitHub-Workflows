@@ -6,7 +6,7 @@ cd backend
 npm init -y
 npm install express
 
-# Still /backend cors are for browsers
+# Still on /backend add cors, cors are for browsers
 change 'main' to server.js from package.json
 add on "scripts:
     "start": "node server.js",
