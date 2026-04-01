@@ -1,6 +1,6 @@
 # Practice GitHub Workflows
 Always check before commit.
-
+Run both Frontend and backend folder with npm start
 # Team Roles
 Backend: Gutierrez, Mercado, Manalo, Paule
 Frontend & Multimedia: Amores, Anastacio, Manalo
