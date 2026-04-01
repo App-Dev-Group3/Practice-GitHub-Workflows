@@ -1,6 +1,9 @@
 ﻿const { Resend } = require('resend');
 
 const resendApiKey = process.env.RESEND_API_KEY;
+console.log('send-email: RESEND_API_KEY present?', Boolean(resendApiKey));
+console.log('send-email: EMAIL_FROM', process.env.EMAIL_FROM);
+
 const resend = new Resend(resendApiKey);
 
 async function sendEmail({ to, subject, text, html, from }) {
