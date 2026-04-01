@@ -102,7 +102,7 @@ npm install dotenv
 
 ```env
 PORT=3000
-EMAIL_FROM= YOUR EMAIL
+EMAIL_FROM=onboarding@resend.dev
 RESEND_API_KEY= SIGN UP IN RESEND.COM GET AND PASTE API KEY HERE
 ```
 
