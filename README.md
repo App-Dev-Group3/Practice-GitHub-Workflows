@@ -1,4 +1,10 @@
 # Practice GitHub Workflows
+Always check before commit.
+
+# Team Roles
+Backend: Gutierrez, Mercado, Manalo, Paule
+Frontend & Multimedia: Amores, Anastacio, Manalo
+QA: Adigue
 
 ## ⚠️ Important Notes
 
@@ -31,6 +37,9 @@ npm install express
 
 ```bash
 npm install express cors body-parser http-proxy-middleware
+```
+```bash
+npm install resend <this is for email api>
 ```
 
 5. Update `package.json`:
@@ -92,6 +101,8 @@ npm install dotenv
 
 ```env
 PORT=3000
+EMAIL_FROM= YOUR EMAIL
+RESEND_API_KEY= SIGN UP IN RESEND.COM GET AND PASTE API KEY HERE
 ```
 
 ---
@@ -144,4 +155,4 @@ npm install react-router-dom
 
 npm audit fix --force
 ```
-
+## Use your github account for resend
